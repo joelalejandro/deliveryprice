@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculá el precio del envío de tu pedido en %SHOP_NAME%</title>
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    %SHOP_CUSTOM_CSS%
+</head>
+<body>
+    <div class="logo-container">%SHOP_LOGO%</div>
+    <div id="map"></div>
+    <div class="data-container">
+        <div class="address-container">
+            Enviando a:
+            <span id="address"></span>
+        </div>
+        <div class="distance-container">
+            Distancia:
+            <span id="distance"></span>
+        </div>
+
+        <div class="cost-container">
+            Costo:
+            <span id="cost"></span>
+        </div>    
+    </div>
+    %BING_MAPS%
+    %SHOP_CONFIG%
+    <script src="/assets/js/calculator.js"></script>
+</body>
+</html>

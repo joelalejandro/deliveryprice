@@ -1,0 +1,15 @@
+{
+    "name": "deliveryprice",
+    "version": "0.1.0",
+    "private": true,
+    "author": {
+        "name": "Joel A. Villarreal Bertoldi",
+        "email": "joel.a.villarreal@gmail.com"
+    },
+    "dependencies": {
+        "now": "^18.0.0"
+    },
+    "devDependencies": {
+        "axios": "^0.19.2"
+    }
+}

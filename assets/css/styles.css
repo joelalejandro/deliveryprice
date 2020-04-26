@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    font-family: sans-serif;
+}
+
+body {
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-container img {
+    padding: 1rem;
+}
+
+.distance-container,
+.cost-container,
+.address-container {
+    display: none;
+    padding: 1rem;
+}
+
+#map {
+    width: 100%;
+    flex: 1;
+}
+
+#distance, #cost, #address {
+    font-weight: bold;
+}
+
+#searchBoxContainer {
+    margin-right: 1px;
+}
+
+#destinationAddress {
+    box-sizing: border-box!important;
+    background-color: rgb(255, 255, 255);
+    font-size: 1.25rem;
+    padding: 1rem;
+    width: 100%;
+}

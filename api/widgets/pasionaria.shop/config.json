@@ -1,0 +1,64 @@
+{
+    "id": "f4e7249d86bf2e91937bc37f5425e4941ed83b76",
+    "shopName": "Pasionaria Delicatessen",
+    "shopDomain": "pasionaria.shop",
+    "customCSS": true,
+    "sourceLocation": {
+        "address": "General Justo José de Urquiza 1776, Córdoba, Argentina",
+        "location": {
+            "latitude": -31.4072,
+            "longitude": -64.1857
+        }
+    },
+    "zones": [
+        {
+            "id": "z1",
+            "name": "ZONA 1 | AMARILLA",
+            "coverage": "Alta Córdoba, Cofico, San Martín & otros",
+            "serviceHours": "Martes a Sábado de 16 a 23 hs.",
+            "minimumDistance": 0,
+            "maximumDistance": 3,
+            "cost": 70
+        },
+        {
+            "id": "z2",
+            "name": "ZONA 2 | VERDE",
+            "coverage": "Ducasse, parte de Centro, Alberdi, General Paz & otros",
+            "serviceHours": "Martes a Sábado de 17 a 23 hs.",
+            "minimumDistance": 3,
+            "maximumDistance": 4,
+            "cost": 100
+        },
+        {
+            "id": "z3",
+            "name": "ZONA 3 | NARANJA",
+            "coverage": "Alto Alberdi, Nueva Córdoba, Güemes, Villa Cabrera & otros",
+            "serviceHours": "Martes a Sábado de 18 a 23 hs.",
+            "minimumDistance": 4,
+            "maximumDistance": 6,
+            "cost": 150
+        },
+        {
+            "id": "zx",
+            "name": "Otras zonas",
+            "minimumDistance": 6,
+            "cost": 175,
+            "perKilometer": {
+                "disclaimer": "Consultar antes realizar de la compra. ¡Gracias!",
+                "step": 1,
+                "costIncrease": 25    
+            }
+        }
+    ],
+    "integrations": {
+        "tiendanube": {
+            "autoselectShippingOption": true,
+            "zonesToShippingOptionIDs": {
+                "z1": "5883884",
+                "z2": "5904814",
+                "z3": "5913150",
+                "zx": "5913154"
+            }
+        }
+    }
+}

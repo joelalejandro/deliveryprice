@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css?family=Lora:400,700");
+
+body {
+    font-family: "Lora", serif;
+}
+
+#map {
+    border: 1px solid rgba(0, 0, 0, 0.3)
+}
+
+.data-container {
+    display: flex;
+}
